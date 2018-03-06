@@ -1,0 +1,22 @@
+{
+  "name": "ts-puppeteer-skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton project for starting a new TypeScript Puppeteer project for headless Chrome automation ",
+  "main": "build/index.js",
+  "author": "Jon Constantinides <jonleecon@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "clean": "rm -r ./build",
+    "start": "node build/index.js",
+    "watch": "./node_modules/.bin/tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/puppeteer": "^1.0.0",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "puppeteer": "^1.1.1"
+  }
+}
